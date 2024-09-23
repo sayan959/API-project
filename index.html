@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country API Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+     
+      .country{
+        border: solid 1px;
+        margin: 5px;
+        padding: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
+    </style>
+</head>
+<body class="">
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">daisyUI</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+                <li><a href="./index.html"> Country</a></li>
+                <li><a href="./food.html"> Food</a></li>
+                  
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div id="country-details" class="border border-3 text-center mx-auto pt-20"></div>
+
+    <div id="countries" class="grid grid-cols-3 gap-7">
+    </div>
+    <script src="./js/country.js"></script>
+</body>
+</html>
